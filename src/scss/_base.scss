@@ -26,6 +26,11 @@ body {
   font-family: op;
   font-size: 1rem;
   line-height: 1.25;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 a {
@@ -39,16 +44,16 @@ video {
   vertical-align: middle;
 }
 
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
 /* ====================================
 // base rules
 // ==================================== */
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 300 to 800
-
-body {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
